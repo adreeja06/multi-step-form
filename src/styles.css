@@ -1,0 +1,58 @@
+/* Reset all margins and paddings to 0 for all elements */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+/* Set the base font size for the HTML element */
+html {
+  font-size: 18px;
+}
+
+/* Apply padding to the .App element */
+.App {
+  padding: 50px;
+}
+
+/* Set maximum width for .details__wrapper and center it horizontally */
+.details__wrapper {
+  max-width: 400px;
+  margin: 10em auto;
+}
+
+/* Add margin bottom to all form items */
+.form__item {
+  margin-bottom: 1.6em;
+}
+
+/* Set display to block and width to 100% for all labels and inputs */
+label,
+input {
+  display: block;
+  width: 100%;
+}
+
+/* Force display to flex and add important tag to override any other declarations */
+.d-flex {
+  display: flex !important;
+}
+
+/* Align items to the end of the container */
+.justify-content-end {
+  justify-content: flex-end !important;
+}
+
+/* Spread items across the container and leave equal space between them */
+.justify-content-between {
+  justify-content: space-between !important;
+}
+
+/* Add a red border color to inputs with an error */
+.input__error input {
+  border-color: red;
+}
+
+/* Add red text color for error feedback */
+.error__feedback {
+  color: red;
+}
